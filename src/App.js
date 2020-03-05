@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import PetComponent from './components/pet-component';
 
-function App() {
+const pets = [
+  {species: "doggo", noise:"awooo~", backgroundColor: "rebeccapurple", color:"#fff"},
+  {species: "turtle", noise:"...", backgroundColor: "tomato", color:"#fff"},
+  {species: "parrot", noise:"Artemis Fowl", backgroundColor: "mediumseagreen", color:"#fff"},
+  {species: "cat", noise:"nyan", backgroundColor: "orange", color:"#000"}
+];
+
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Welcome to {props.name}'s petshop</h1>
+      {
+        pets.map( (pet, i) => 
+        <PetComponent
+          key={i}
+          species={pet.species}
+          noise={pet.noise}
+          backgroundColor={pet.backgroundColor}
+          color={pet.color}
+        />
+        )
+      }
+    </>
   );
 }
 

@@ -1,5 +1,6 @@
 {
   "name": "pet-shop",
+  "homepage": "https://wgoode3.github.io/pet-shop/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
