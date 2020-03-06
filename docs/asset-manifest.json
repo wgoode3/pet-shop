@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/pet-shop/static/css/main.d1b05096.chunk.css",
-    "main.js": "/pet-shop/static/js/main.c268f675.chunk.js",
-    "main.js.map": "/pet-shop/static/js/main.c268f675.chunk.js.map",
+    "main.js": "/pet-shop/static/js/main.dc5618e6.chunk.js",
+    "main.js.map": "/pet-shop/static/js/main.dc5618e6.chunk.js.map",
     "runtime-main.js": "/pet-shop/static/js/runtime-main.02a0e5b4.js",
     "runtime-main.js.map": "/pet-shop/static/js/runtime-main.02a0e5b4.js.map",
-    "static/js/2.4a89ef79.chunk.js": "/pet-shop/static/js/2.4a89ef79.chunk.js",
-    "static/js/2.4a89ef79.chunk.js.map": "/pet-shop/static/js/2.4a89ef79.chunk.js.map",
+    "static/js/2.e474b7d1.chunk.js": "/pet-shop/static/js/2.e474b7d1.chunk.js",
+    "static/js/2.e474b7d1.chunk.js.map": "/pet-shop/static/js/2.e474b7d1.chunk.js.map",
     "index.html": "/pet-shop/index.html",
-    "precache-manifest.b72a579402c992ffc418e8cffe3d1756.js": "/pet-shop/precache-manifest.b72a579402c992ffc418e8cffe3d1756.js",
+    "precache-manifest.066908b53c3070deeedce77f0bf3cd58.js": "/pet-shop/precache-manifest.066908b53c3070deeedce77f0bf3cd58.js",
     "service-worker.js": "/pet-shop/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/pet-shop/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.4a89ef79.chunk.js.LICENSE.txt": "/pet-shop/static/js/2.4a89ef79.chunk.js.LICENSE.txt"
+    "static/js/2.e474b7d1.chunk.js.LICENSE.txt": "/pet-shop/static/js/2.e474b7d1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.02a0e5b4.js",
-    "static/js/2.4a89ef79.chunk.js",
+    "static/js/2.e474b7d1.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.c268f675.chunk.js"
+    "static/js/main.dc5618e6.chunk.js"
   ]
 }
